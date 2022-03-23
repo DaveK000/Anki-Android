@@ -27,6 +27,7 @@ class ClosableDrawerLayout : DrawerLayout {
     constructor(context: Context, attrs: AttributeSet?, defStyle: Int) : super(context, attrs, defStyle) {}
 
     fun setAnimationEnabled(useAnimation: Boolean) {
+
         mAnimationEnabled = useAnimation
     }
 
